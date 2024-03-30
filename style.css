@@ -1,6 +1,8 @@
 .one {
   background-color: aquamarine;
   max-width: 500px;
+  height: 400px;
+  overflow: auto;
 }
 
 .two {
