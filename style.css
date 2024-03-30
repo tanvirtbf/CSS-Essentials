@@ -1,11 +1,11 @@
-.main{
-  width: 50%;
+.main {
+  background-color: bisque;
+  height: 500px;
 }
+
 .one {
   background-color: aquamarine;
-  max-width: 50%;
-  min-height: 300px;
-  word-break: break-all;
+  height: 50%;
 }
 
 .two {
