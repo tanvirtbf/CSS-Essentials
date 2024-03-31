@@ -1,15 +1,12 @@
 .main {
   background-color: bisque;
-  height: 500px;
 }
 
 .one {
   background-color: aquamarine;
-  height: 50%;
+  width: 300px;
+  padding:25px;
 }
 
-.two {
-  background-color: blueviolet;
-}
 
-rating+wishlist+blog+language
+/* rating+wishlist+blog+language */
