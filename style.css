@@ -6,6 +6,16 @@
   background-color: aquamarine;
   width: 300px;
   padding:25px;
+  border:1px solid red;
+  border-top-width: 20px;
+  border-top-color: red;
+  border-bottom-width: 10px;
+  border-bottom-color: yellowgreen;
+  border-right-style: dotted;
+  border-right-color: greenyellow;
+  border-right-width: 15px;
+  border-left-style: dashed;
+  border-left-width: 12px;
 }
 
 
