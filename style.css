@@ -9,6 +9,6 @@ body{
 }
 .box{
   background-color: chartreuse;
-  padding: 2%;
   font-size: 50%;
+  width: 50vh;
 }
