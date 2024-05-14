@@ -1,15 +1,14 @@
-html{
-  height: 200px;
-}
 body{
   margin:0;
-  width: 10px;
-  height:50%;
+  box-sizing: border-box;
+}
+.main{
+  background-color: red;
+  width: 400px;
+  font-size: 40px;
 }
 .box{
   background-color: chartreuse;
-  /* max-width: 500px;
-  min-width: 300px; */
-  width: 500%;
-  height: 40%;
+  padding: 2%;
+  font-size: 50%;
 }
