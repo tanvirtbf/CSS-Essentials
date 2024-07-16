@@ -17,19 +17,22 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 400px;
-  flex-direction: column;
+  border:1px solid;
+  /* flex-direction: column; */
 }
 .parent div{
   background-color: brown;
   width: 100%;
   flex-basis: 100%;
   order:1;
+  align-self: flex-end;
 }
 .parent span {
   background-color: cadetblue;
   width: 100%;
   flex-basis: 100%;
   order:-1;
+  align-self: flex-start;
 }
 
 .parent p {
