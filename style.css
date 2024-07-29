@@ -4,11 +4,13 @@ body{
 section{
   width: 400px;
   background-color: violet;
+  font-size: 10px;
 }
 .box{
   background-color: chartreuse;
   width: 50%;
   padding: 3%;
+  font-size: 200%; /* 20px */
 }
 
 /* padding with percentage */
