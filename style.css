@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+section{
+  width: 400px;
+  background-color: violet;
+}
+.box{
+  background-color: chartreuse;
+  width: 50%;
+  padding: 3%;
+}
+
+/* padding with percentage */
+/* padding jodi percentage diye dei tahole tar parent er width er theke percente hisheb korbe . box er parent section . section er width 400px . tai box e 10% padding dile 40px padding hobe */
