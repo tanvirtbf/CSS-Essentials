@@ -1,7 +1,7 @@
-.container {
-  background-color: lightblue;
-  min-height: 60vh;
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
+.one{
+  background-color: aquamarine;
+  max-width: 600px;
+}
+.two{
+  background-color: blueviolet;
 }
