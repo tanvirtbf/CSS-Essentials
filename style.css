@@ -1,37 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height:auto;
+.container {
+  background-color: lightblue;
+  min-height: 60vh;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.parent {
-  display: flex;
-  height: 400px;
-  border:1px solid;
-}
-.parent div{
-  background-color: brown;
-  flex-basis: 200px;
-}
-.parent span {
-  background-color: cadetblue;
-  flex-basis: 200px;
-}
-
-.parent p {
-  background-color: darkkhaki;
-  flex-basis: 200px;
-}
-
-.parent a {
-  background-color: yellowgreen;
-  flex-basis: 200px;
-} 
