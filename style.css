@@ -159,6 +159,14 @@ Position : Sticky
 
 Note 1 : eta position relative er motoi . jokhon position sticky dei tokhon seta relative er motoii tar jaygay thake .kintu  top bottom left right use kora jay na relative er moto. relative er khetre top bottom left right diye ami chaile parent er baireo nite pari element ke . kintu sticky kokhono parent er baire jabe na . parent er vitore move hobe top bottom left right diye , kintu baire jabe na .
 
+Note 2 : Navbar Project
+ami jodi position sticky diye navbar banaite chai, othoba ami jodi chai nicher kono element jokhon scroll kore ashbe upore , aishaii jeno sekhane fixed hoye jay , r upore jeno na jay , ai khetre position sticky beshi use hoy . 
+sei khetre ami navbar element jeno thik immidiate bodyr child hoy seta korte hobe . then top: 0 or top : 2px jai dei seta scroll hoye upore ashle r move hobe na .
+
+Note 3 : 
+important thing is sticky dile seta kokhonoii parent er baire jabe na . r top bottom left right only parent er related change hobe
+
+na bujhle again video
 
 
 */
