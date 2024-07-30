@@ -1,43 +1,12 @@
-*{
-  margin : 0;
-  padding : 0;
-}
-header{
-  display: flex;
-  justify-content: space-around;
-  padding : 20px;
-  position: sticky;
-  top : 2px;
-  background-color: turquoise;
-}
-.container{
-  height: 50vh;
-  background-color: chartreuse;
-}
-.container div{
-  margin-left : 100px;
-  margin-right : 100px;
-}
-.container div:nth-child(1){
-  background-color: aqua;
-}
-.container div:nth-child(2){
-  background-color:yellow;
-}
-.container div:nth-child(3){
-  background-color:violet;
-  position: sticky;
-  top : 0px;
-}
-.container div:nth-child(4){
-  background-color:blue;
-}
-.container div:nth-child(5){
-  background-color:tomato;
-}
 
-
-
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  transform: scale(1.5);
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+}
 
 
 
