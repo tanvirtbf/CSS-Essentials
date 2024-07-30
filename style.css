@@ -1,10 +1,30 @@
-div{
-  background-color: chartreuse;
-  position: relative;
-  top: 40px; 
-  top : -50px; 
-  left : 30px;
-  left : -30px;
+*{
+  margin : 0;
+  padding : 0;
+}
+.container{
+  height: 100vh;
+}
+.container div{
+  margin-left : 100px;
+  margin-right : 100px;
+}
+.container div:nth-child(1){
+  background-color: aqua;
+}
+.container div:nth-child(2){
+  background-color:yellow;
+}
+.container div:nth-child(3){
+  background-color:violet;
+  position: sticky;
+
+}
+.container div:nth-child(4){
+  background-color:blue;
+}
+.container div:nth-child(5){
+  background-color:tomato;
 }
 
 
@@ -122,4 +142,15 @@ Note 4 : jodi parent e position relative na thake tahole tar grand parent e jodi
 
 Note 5 : position relative na thakleo jodi position fixed or sticky thake taholeo absolute tar related thakbe
 
+Position : Fixed
+
+Note 1 : absolute er khetre jemon parent e relative thakle setar sathe connect hoye jay , setar related change hoy, r jodi na thake tahole viewport er sathe connected hoye jay , kintu position fixed er khetre always viewport er sathe connect thakbe . tar mane position fixed dile alaways seta viewport er hishebe change hobe jodi top bottom left right dei
+
+Position : Sticky
+
+Note 1 : eta position relative er motoi . jokhon position sticky dei tokhon seta relative er motoii tar jaygay thake .kintu  top bottom left right use kora jay na relative er moto. relative er khetre top bottom left right diye ami chaile parent er baireo nite pari element ke . kintu sticky kokhono parent er baire jabe na . parent er vitore move hobe top bottom left right diye , kintu baire jabe na .
+
+
+
 */
+
