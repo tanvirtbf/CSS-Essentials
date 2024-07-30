@@ -1,21 +1,41 @@
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size : 2em; /* 32px */
-}
-section{
-  background-color: violet;
-  font-size: 2em; /* 64px -- related to body font-size */
-  padding: .5em; /* 32px -- related to section font-size */
-  margin: 1em /* 64px -- related to section font-size */
-}
-.box{
+div{
   background-color: chartreuse;
+  position: relative;
+  top: 40px; 
+  top : -50px; 
+  left : 30px;
+  left : -30px;
 }
-h1{
-  font-size: 1em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********NOTE*********  */
 
 /* padding with percentage */
 /* padding jodi percentage diye dei tahole tar parent er width er theke percente hisheb korbe . box er parent section . section er width 400px . tai box e 10% padding dile 40px padding hobe */
@@ -77,5 +97,29 @@ section{
   margin: 1em; // 10px -- related to html font-size 
 }
 
+*/
+
+/* Position  */
+/* 
+Note 1 : By default sob element e position static deya thake 
+
+Position : Relative 
+
+Note 2 : jokhon position relative dei tokhon amra 4 ta property access korte parbo jeta position static deya obosthay parbo na . set holo 
+1. top 
+2. bottom 
+3. left
+4. right 
+shorthand of top bottom left right is inset
+position static thakle top bottom left right kichui kaj kore na . egula kaj korte hole static chara onno position thakle kaj korbe
+
+
+Position : Absolute
+
+Note 3 : jekono element e position absolute dile tar and jodi parent er kothau position relative na dey tahole oi absolute element viewport er sathe related hoye jay . tar mane jodi akhn top bottom left right set kori tahole element ta browser er viewport hishebe apply hobe
+
+Note 4 : jodi parent e position relative na thake tahole tar grand parent e jodi relative thake tahole absolute element setar related top bottom left right hobe
+
+Note 5 : position relative na thakleo jodi position fixed or sticky thake taholeo absolute tar related thakbe
 
 */
