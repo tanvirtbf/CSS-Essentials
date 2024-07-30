@@ -1,19 +1,20 @@
 body{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size : 2em; /* 32px */
 }
 section{
-  width: 400px;
   background-color: violet;
-  font-size: 10px;
+  font-size: 2em; /* 64px -- related to body font-size */
+  padding: .5em; /* 32px -- related to section font-size */
+  margin: 1em /* 64px -- related to section font-size */
 }
 .box{
   background-color: chartreuse;
-  width: 50vh;
-  padding: 10vw;
-  margin : 10vh;
 }
 h1{
-  font-size: 1vw;
+  font-size: 1em;
 }
 
 /* padding with percentage */
@@ -38,3 +39,23 @@ h1{
 
 
 /* viewport height and width */
+
+
+/*   
+em : 
+note 1 : em sob somoy font size er sathe related . ami jodi font-size 1 em dei tahole se dekhbe parent er font-size koto . jodi parent er font-size 20 px diye thake tahole tar child by default 1 em = 20 px dhorbe . jodi parent er font size 25 pixel thake tahole child e 3 em dile 75px apply hobe . jodi parent e kono font-size na deya thake tahole by default parent e 1em = 16px set thakbe . sei onujayii child element e font-size em e set hobe . tar mane tokhon child e 1 em = 16 px hobe . 
+
+note 2 : em diye margin padding egulao deya jay . egular khetre tara parent er font-size dekhbe na . tar nijer element er font-size er sathe related thakbe . tar mane jei element e margin padding em e set thakbe sei element er font-size = 1 em dhorbe tara . jodi nijer element e font-size 32 px thake tahole padding and margin 1em = 32px, 2 em = 64px hobe. r jodi nijer element e kono font-size na deya thake taholeo nijer element e jei font-size thake setaii dhorbe .
+
+example : 
+body{
+  font-size : 2em;  // 32px 
+}
+section{
+  font-size: 2em; // 64px -- related to body font-size 
+  padding: .5em; // 32px -- related to section font-size 
+  margin: 1em; // 64px -- related to section font-size 
+}
+
+
+*/
