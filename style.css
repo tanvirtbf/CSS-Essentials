@@ -24,4 +24,11 @@ section{
 /* Font Size with percentage  */
 /* jei element e font size percentage e deya hoy sei element er font size theke percentage hisheb kora hoy */
 
-/* font size % e dile kokhono 6 px er niche jabe na .  */
+/* font size % e dile kokhono 6 px er niche jabe na . kintu jodi parent er font size manually set kora hoye thake pixel e tahole 6 px er niche jabe  */
+
+/* percentage related conlclusion */
+/* 1. width related to parent width */
+/* 2. height related to parent absolute height */
+/* 3. padding related to parent width */
+/* 4. margin related to parent width */
+/* 5. font-size related to parent font size */
