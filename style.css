@@ -1,25 +1,4 @@
 
-.box{
-  width: 33.33vw;
-  height: 33.33vh;
-  background-color: aquamarine;
-  /* transform: scale(1.5); */
-  /* transform-origin: 0 0; */
-  transform: translateX(100%);
-  transform: translateY(100%);
-  /* transform: rotate(45deg); */
-}
-.box:hover{
-  rotate: 180deg;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -39,6 +18,11 @@
 
 
 /* ********NOTE*********  */
+
+/* FlexBox  */
+
+
+/* flexbox is a css box model to easily layout, align and distribute space among items within a Container either horizontally or vertically . tar mane hocche kono container er vitor hoy horizontally othoba vertically align kora . jekono ek dike chinta korte hobe . noyto x direction e , noyto y direction e . kintu grid x , y 2 dikeii direction hoite pare */
 
 /* padding with percentage */
 /* padding jodi percentage diye dei tahole tar parent er width er theke percente hisheb korbe . box er parent section . section er width 400px . tai box e 10% padding dile 40px padding hobe */
