@@ -1,5 +1,57 @@
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
 
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
 
+}
+.container div{
+  width: 200px; 
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.container div:nth-child(1){
+  background-color: chartreuse;
+  height: 150px;
+}
+.container div:nth-child(2){
+  background-color: aqua;
+  height: 100px;
+}
+.container div:nth-child(3){
+  background-color: tomato;
+  height: 250px;
+}
+.container div:nth-child(4){
+  background-color: violet;
+  height: 80px;
+}
+.container div:nth-child(5){
+  background-color: chartreuse;
+  height: 180px;
+}
+.container div:nth-child(6){
+  background-color: aqua;
+  height: 130px;
+}
+.container div:nth-child(7){
+  background-color: tomato;
+  height: 200px;
+}
+.container div:nth-child(8){
+  background-color: violet;
+  height: 140px;
+}
 
 
 
@@ -29,7 +81,6 @@
 
 
 /* FlexBox  */
-
 
 /* flexbox is a css box model to easily layout, align and distribute space among items within a Container either horizontally or vertically . tar mane hocche kono container er vitor hoy horizontally othoba vertically align kora . jekono ek dike chinta korte hobe . noyto x direction e , noyto y direction e . kintu grid x , y 2 dikeii direction hoite pare */
 
