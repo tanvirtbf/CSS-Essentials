@@ -18,10 +18,12 @@
   color : #fff;
   font-size: 4rem;
   text-align: center;
-  grid-column-start: 2;
+  /* grid-column-start: 2;
   grid-row-start: 2;
   grid-column-end: 4;
-  grid-row-end: 4;
+  grid-row-end: 4; */
+  grid-column-start: span 3;
+  grid-row-start: span 2;
 }
 
 
