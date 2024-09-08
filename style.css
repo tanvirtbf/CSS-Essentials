@@ -1,6 +1,6 @@
-*{
-  /* margin: 0;
-  padding : 0; */
+/* *{
+  margin: 0;
+  padding : 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -16,10 +16,29 @@ body{
   .box{
     font-size: 2rem;
   }
+} */
+
+
+*{
+  margin: 0;
+  padding : 0;
+  /* box-sizing: border-box; */
+  font-family: sans-serif;
+}
+html{
+  font-size: 15px;
+}
+body{
+  font-size: 35px;
 }
 
-
-
+.box{
+  width: 300px;
+  border: 1px solid black;
+}
+p{
+  font-size: 1rem; /* 25px hoise */
+}
 
 
 
@@ -110,13 +129,6 @@ h1{
 
 
 
-
-
-
-
-
-
-
 /* ********NOTE*********  */
 
 /* ******Grid******* */
@@ -144,7 +156,7 @@ h1{
 /* border er sathe percentage use kora jay na  */
 
 /* Font Size with percentage  */
-/* jei element e font size percentage e deya hoy sei element er font size theke percentage hisheb kora hoy */
+/* jei element e font size percentage e deya hoy sei element er parent er font size theke percentage hisheb kora hoy */
 
 /* font size % e dile kokhono 6 px er niche jabe na . kintu jodi parent er font size manually set kora hoye thake pixel e tahole 6 px er niche jabe  */
 
