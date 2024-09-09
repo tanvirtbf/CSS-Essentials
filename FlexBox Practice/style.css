@@ -13,8 +13,26 @@ body {
 
 .parent p {
   border: 4px solid darkkhaki;
+  width: max-content;
 }
 
 .parent a {
   border: 4px solid yellowgreen;
 }
+
+
+/* 
+
+Notes Start 
+
+1. Max Content and Min Content 
+jokhon ami kono element er upor width : max-content dei tokhon sei element 1 line e aisha pore , line break kore na 
+jokhon ami width : min-content dibo tokhon sobcheye minimum width se nibe . tar mane p tag er moddhe sobcheye boro word er width jototuku thik tototukuii hobe p tag er width 
+
+
+
+
+
+
+
+*/
