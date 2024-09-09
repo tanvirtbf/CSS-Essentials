@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
 }
@@ -5,19 +11,23 @@ body {
 .parent {
   padding: 10px;
   border: 4px solid indianred;
+  display: flex;
 }
 
 .parent span {
-  border: 4px solid cadetblue;
+  border: 4px solid red;
+  width: 200px;
 }
 
 .parent p {
   border: 4px solid darkkhaki;
-  width: max-content;
+  width: 400px;
+  flex-shrink: 2;
 }
 
 .parent a {
-  border: 4px solid yellowgreen;
+  border: 4px solid blueviolet;
+  width: 400px;
 }
 
 
@@ -26,13 +36,66 @@ body {
 Notes Start 
 
 1. Max Content and Min Content 
+
 jokhon ami kono element er upor width : max-content dei tokhon sei element 1 line e aisha pore , line break kore na 
 jokhon ami width : min-content dibo tokhon sobcheye minimum width se nibe . tar mane p tag er moddhe sobcheye boro word er width jototuku thik tototukuii hobe p tag er width 
 
+2. Flex Box 
+
+jokhon amra kono element er upor display : flex dei tokhon sathe sathe sei element er vitor joto child element ase sob gular display block hoye jay . jar karone child element gula sob gular moddheii custom vabe height width set kora jay 
 
 
+3. Flex Shrink 
+
+    <div class="parent">
+        <span>Hi, I am span.</span>
+        <p>Hi, I am paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe magni maxime magnam sint deserunt. Veritatis possimus eos, id quos cupiditate inventore deleniti rerum quae, asperiores rem suscipit voluptate recusandae a.</p>
+        <a href="/">Hi, I am an anchor tag.</a>
+    </div>
+
+    style : 
+    .parent{ 
+      display : flex
+    }
+    span{
+      width : 200px
+    }
+    p , a {
+      width: 400px;
+    } 
+
+upore parent div er upor display flex deya and tar child holo span, p and a tag . tader alada alada width deya 
+
+normal obosthay parent div er child ra chaibe amra amader base width niye thakbo . jodi parent div er width 1000 px or 1000 px er beshi hoy tokhon sob child element take deya width niye thakbe . and baki width khali thakbe . kintu jokhon parent div er width 1000 px er kom hobe tokhon aste aste child element er width komte thakbe mathematical way te . mane prottekta child element er width percentage akare komte thakbe 
+
+Example : jodi parent div er width 800 px hoy tar mane 200 px short ase child element er jonno . ai 200 px tara soman percentage akare komeche . tar mane span tag kombe 40px , p and a tag kombe 80 px kore . that's mean 80+80+40 = 200px . tar mane p , a and span tag tader width er 20% komse 
+
+etakeii bole shrink kora 
+
+kintu jodi child element gula ke manually width deya na hoy tahole kivabe width distribute hoy ?? 
+
+Answer : 
+tokhon child element er max-content ke sei child element er width dhora hobe . and sei onujayii shrink hobe . i am already know that what is max-content min-content!
+kono element er max-content holo tar content-size
 
 
+4. flex-shrink property 
+
+flex-shrink : 0 => 
+jodi kono element er upor flex-shrink : 0 dei tahole sei element kokhonoii shrink korbe na . baki element gula shrink korbe ager technique eii. 
+
+amon element er flex-shrink jodi 0 dei jei element er width onk beshi and eto beshi je parent element er width e kaj hocche na tokhon parent element overflow hobe and scroll bar aisha porbe x okkho borabor
+
+parent er upor flex-shrink : 0 dileo seta child er upor kaj korbe na . child e dite hobe
+
+flex-shrink : 1 => 
+1 holo by default value . flex-shrink : 1 deya r na deya ekii kotha .
+
+flex-shrink : 0.5 => 
+tar mane holo sob child element jodi 10% shrink kore tahole amake 5% shrink koro
+
+flex-shrink : 2 => 
+tar mane holo sob child jodi 10% shrink kore tahole amk 20% shrink koro 
 
 
 */
