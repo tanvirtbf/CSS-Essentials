@@ -12,6 +12,8 @@ body {
   padding: 10px;
   border: 4px solid indianred;
   display: flex;
+  height: 70vh;
+  flex-direction: column;
 }
 
 .parent span {
@@ -25,7 +27,7 @@ body {
 
 .parent a {
   border: 4px solid blueviolet;
-  width: 400px;
+  height: 150px;
   flex-shrink: 0;
 }
 
@@ -110,10 +112,34 @@ flex-grow jar beshi thakbe se toto beshi khali space dokhol korbe
 jodi span and p tag er moddhe flex-grow : 1 dei and a tag er moddhe flex-grow : 0.5 dei tahole tar mane daray p and span tag theke ordhek khali space pabe
 
 
+6. justify-content 
+
+parent element er moddhe child element x okkho borabor kivabe boshbe setar jonnoi ai property 
+
+space-between , space-around , space-evenly er khetre jodi parent element e child element der jayga deyar poreo kono width baiccha thake tokhon sei width child element der moddhe gap hishebe distribute hoy . ta na hole egula kaj kore na .
+
+7. align-items
+
+parent element er moddhe child element y okkho borabor kivabe boshbe setar jonnoi ai property 
+
+jodi ami parent er element er height 500px dei and tar child element gula jodi height default height content-size thake taholeo tara protteke parent er height pabe . karon by default align-items : stretch kora thake . stretch mane holo prosharon kora, bistar kora , tene prosharito kora . tar mane holo child element gula parent er height porjonto stretch hobe tader height 
+
+kintu jodi ami align-items : flex-start dei tahole stretch property shoira jabe and child element gula tader nijeder height e firee ashbe .
+
+align-items : normal and stretch same value and same output 
+
+align-items : flex-end dile child element gular height jar jar content-height thakbe + tara parent element er y okkho borabor ekdom niche chole ashbe 
+
+align-items : center dile child element gular height jar jar content-height thakbe + tara parent element er y okkho borabor center e thakbe 
 
 
+8. flex-direction 
 
+By Default flex-direction : row thake 
 
+jodi flex-direction : column dei tahole same concept with height . tar mane amra jei flex-grow, flex-shrink use korsi width er sathe egula akhn height er sathe apply hobe 
+
+Example : jodi parent er height 50vh dei and span tag er height fix 200px dei and flex-shrink : 0 dei and p tag er flex-grow : 1 dei tahole span tag 200px height eii thakbe shrink korbe na , barbeo na . tar moddheii p tag khali space er height gula cover korbe and a tag tar content height eii thakbe always . ekdom flex-direction : row thakble jei behaviour kore seta jemon width er sathe and eta hocche height er sathe .
 
 
 */
