@@ -16,18 +16,17 @@ body {
 
 .parent span {
   border: 4px solid red;
-  width: 200px;
 }
 
 .parent p {
   border: 4px solid darkkhaki;
-  width: 400px;
-  flex-shrink: 2;
+  flex-grow: 1;
 }
 
 .parent a {
   border: 4px solid blueviolet;
   width: 400px;
+  flex-shrink: 0;
 }
 
 
@@ -96,6 +95,25 @@ tar mane holo sob child element jodi 10% shrink kore tahole amake 5% shrink koro
 
 flex-shrink : 2 => 
 tar mane holo sob child jodi 10% shrink kore tahole amk 20% shrink koro 
+
+
+5. flex-grow property 
+
+flex-grow property holo parent element er khali space gula ke child element er moddhe distribute korar ekta way 
+
+by default sob child element e flex-grow : 0; thake . tar mane holo khali space e grow hobe na . 
+
+uporer code span , p and a tag er moddhe jodi only p te flex-grow : 1 kora hoy tahole parent flex item er khali space p tag ekaii dokhol kore nibe and baki tag gula tader default width nibe jeta age nito . jodi p and span tag er moddhe flex-grow : 1 kore deya hoy tahole parent element er khali space p and span tag er moddhe soman vabe distribute hobe . jodi span tag e flex-grow : 3 and p tag e flex-grow : 1 deya hoy tahole span tag er moddhe khali space p tag er tulonay 3 gun beshi distribute hobe and so on...
+
+flex-grow jar beshi thakbe se toto beshi khali space dokhol korbe 
+
+jodi span and p tag er moddhe flex-grow : 1 dei and a tag er moddhe flex-grow : 0.5 dei tahole tar mane daray p and span tag theke ordhek khali space pabe
+
+
+
+
+
+
 
 
 */
