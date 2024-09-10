@@ -12,22 +12,25 @@ body {
   padding: 10px;
   border: 4px solid indianred;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
 }
 
 .parent span {
   border: 4px solid red;
-  width: 300px;
 }
 
 .parent p {
   border: 4px solid darkkhaki;
-  width: 300px;
+  align-self: auto;
 }
 
 .parent a {
   border: 4px solid blueviolet;
-  width: 300px;
+}
+
+.parent > *{
+  width: 200px;
 }
 
 
@@ -147,14 +150,44 @@ Example : jodi parent er height 50vh dei and span tag er height fix 200px dei an
 flex-basis property only use in flex-items . parent er moddhe display flex thakle ami chaile child element gula ke width diyeii set korte pari . flex-basis o same kaj kore . flex-basis child element gular moddhe width deyar kaj kore . kintu tahole width and flex-basis er moddhe parthokko ki ? 
 
 difference between width and flex-basis : -> 
-by default parent element er upor flex-direction : row deya thake . kintu jodi flex-direction : column or column-reverse deya thake tokhon height niye ekta jhamela hoy jeta fixed korte hoy onno upaye . kintu ami jodi child element gulay flex-basis diye rakhi tahole seta flex-direction : row er somoy width hishebe set hobe and flex-direction : column hole flex-basis er value child element er jonno height hishebe react korbe . 
+#by default parent element er upor flex-direction : row deya thake . kintu jodi flex-direction : column or column-reverse deya thake tokhon height niye ekta jhamela hoy jeta fixed korte hoy onno upaye . kintu ami jodi child element gulay flex-basis diye rakhi tahole seta flex-direction : row er somoy width hishebe set hobe and flex-direction : column hole flex-basis er value child element er jonno height hishebe react korbe . 
+#jodi flex-direction : column deyar por kono child element er content size tar flex-basis value thekeo beshi hoye jay tokhon sei child element tar content onujayii height barabe , kintu flex-basis na diye only height dile oi height er beshi se jaito na . tokhon overflow hoito 
 
 
 
+10. flex-wrap 
 
 
 
+11. gap 
 
+jodi ami chai joto jai hok jate child element gular moddhe kichu space thakuk tahole ami gap property use kori 
+
+jodi justify-content : space-between dei tokhono kintu child element er moddhe gap create hoy . kintu jokhoniii child element er gular width er addition parent element er width theke beshi or soman soman hoye jay tokhon child element er moddhe r space thake na . oi obosthateo jodi ami chai child element gular moddhe space thakuk tahole gap property use korte hobe 
+
+gap 
+row-gap 
+column-gap 
+
+
+12. order 
+
+parent element er moddhe child element gular serial maintain korar jonno order property use hoy 
+
+by default sob element er upor order : 0 deya 
+
+
+13. align-self
+
+ai property use kore amra single child element ke y okkho borabor align korte pari . align-self only single single child element er upor kaj kore . 
+
+align-self er by default value holo auto 
+
+align self er value auto chara r kichu set korle eta parent er height er sathe stretch korbe na . se tokhon tar nijer height apply korbe 
+
+
+*****Important Notes*****
+align-items and align self ekdom same . sudhu parthokko hocche align-items parent e apply hoy and align-self children e apply hoy . parent er sob child er y okkho borabor alignment er jonno use hoy align-items and kono ekta single child ke y okkho borabor align korar jonno use hoy align-self
 
 
 
